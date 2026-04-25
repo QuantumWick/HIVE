@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/logo.png" width="128" height="128" alt="HIVE" />
+  <img src="https://raw.githubusercontent.com/QuantumWick/HIVE-releases/main/assets/logo.png" width="128" height="128" alt="HIVE" />
 </p>
 
 <h1 align="center">HIVE</h1>
