@@ -18,23 +18,23 @@
 
 ---
 
-## 📥 Download
+## Download
 
-**[⬇ Download the latest installer](https://github.com/QuantumWick/HIVE-releases/releases/latest)**
+**[Download the latest installer](https://github.com/QuantumWick/HIVE-releases/releases/latest)**
 
 ### Which file should I pick?
 
 | Your PC | Installer |
 |---|---|
-| 💻 **Most Windows PCs** (Intel or AMD) | `HIVE-*-win-x64.exe` |
-| 🖥 **ARM Windows laptops** (Snapdragon, Surface Pro X) | `HIVE-*-win-arm64.exe` |
-| 🤷 **Not sure?** | `HIVE-*-win.exe` (universal — works on both) |
+| **Most Windows PCs** (Intel or AMD) | `HIVE-*-win-x64.exe` |
+| **ARM Windows laptops** (Snapdragon, Surface Pro X) | `HIVE-*-win-arm64.exe` |
+| **Not sure?** | `HIVE-*-win.exe` (universal — works on both) |
 
 > Not sure which CPU architecture your PC uses? Right-click **This PC** → **Properties** → look at **System type**. If it says "x64" → use x64. If "ARM64" → use arm64.
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Download the installer
 
@@ -44,9 +44,9 @@ Click the link above, then click the `.exe` file name to start the download. Fil
 
 Double-click the downloaded `.exe`.
 
-### ⚠️ Windows SmartScreen Warning
+### Windows SmartScreen Warning
 
-You'll probably see a blue warning screen saying **"Windows protected your PC"**. This is normal — our app isn't code-signed with a $400/year certificate yet.
+You will probably see a blue warning screen saying **"Windows protected your PC"**. This is normal — the app is not code-signed with a $400/year certificate yet.
 
 **To proceed:**
 1. Click **More info** (small link)
@@ -55,40 +55,40 @@ You'll probably see a blue warning screen saying **"Windows protected your PC"**
 ### 3. Follow the installer
 
 - Pick install location (default is fine)
-- Choose Start menu + Desktop shortcuts (recommended)
+- Choose Start menu and Desktop shortcuts (recommended)
 - Click **Install**
 - Click **Finish** to launch
 
 ### 4. First launch
 
 1. The app opens to a **Sign in with Discord** screen
-2. Click the button → your browser opens Discord's auth page
-3. Authorize → browser redirects back → you're logged in
+2. Click the button — your browser opens Discord's auth page
+3. Authorize — browser redirects back — you are logged in
 4. Start chatting with AI or configuring MCP servers
 
-> 💡 **Access is invite-only.** You need to be approved by an admin to use the app. If you see a login error, contact the admin in Discord.
+> **Access is invite-only.** You need to be approved by an admin to use the app. If you see a login error, contact the admin in Discord.
 
 ---
 
-## 🔄 Updates
+## Updates
 
-The app auto-checks for updates on launch + every few hours.
+The app auto-checks for updates on launch and every few hours.
 
 When a new version is available:
 
 1. **Settings → Updates** shows a prompt
-2. Click **Update Now** → downloads in background
-3. Click **Restart** → app quits, new version installs, app relaunches
+2. Click **Update Now** — downloads in background
+3. Click **Restart** — app quits, new version installs, app relaunches
 
 No manual download needed. No git, no terminal.
 
 ---
 
-## ✨ Features
+## Features
 
 ### AI Chat with Multi-Provider Failover
 - Connect Anthropic (Claude), OpenAI (GPT), Google (Gemini), Ollama (local), OpenRouter, and more
-- Drag-and-drop priority ordering — if one provider fails, next one takes over automatically
+- Drag-and-drop priority ordering — if one provider fails, the next one takes over automatically
 - Chat header shows which provider is responding in real-time
 
 ### HIVE Console — Live MT5 Trading Dashboard
@@ -116,7 +116,7 @@ No manual download needed. No git, no terminal.
 ### Licensing & Downloads
 - Per-product license keys for HIVE-distributed EAs and indicators (QuantumShift, QS Scalper, Quantum Worm, Quantum Decipher, FMS)
 - Master Keys that unlock every product on a single key
-- Built-in Downloads page — bundled `.zip` packages with EA + manuals + install guides ready to drop into MT5
+- Built-in Downloads page — bundled `.zip` packages with EA, manuals, and install guides ready to drop into MT5
 
 ### Additional Features
 - Auto-update built-in
@@ -126,7 +126,7 @@ No manual download needed. No git, no terminal.
 
 ---
 
-## 🛠 System Requirements
+## System Requirements
 
 | Component | Minimum | Recommended |
 |---|---|---|
@@ -135,8 +135,8 @@ No manual download needed. No git, no terminal.
 | **RAM** | 4 GB | 8 GB+ |
 | **Disk** | 500 MB free | 2 GB free |
 | **Display** | 1280×720 | 1920×1080+ |
-| **Network** | Internet for AI + Discord login | Broadband |
-| **MetaTrader 5** | Installed + logged in (for trading features) | — |
+| **Network** | Internet for AI and Discord login | Broadband |
+| **MetaTrader 5** | Installed and logged in (for trading features) | — |
 
 ### Optional but recommended
 
@@ -146,10 +146,10 @@ No manual download needed. No git, no terminal.
 
 ---
 
-## 🆘 Getting Help
+## Getting Help
 
 - **Something broken?** Post in the `#support` channel on Discord
-- **Feature request / bug report?** DM an admin on Discord
+- **Feature request or bug report?** DM an admin on Discord
 - **Release notes** for each version: see the [Releases page](https://github.com/QuantumWick/HIVE-releases/releases)
 
 ### Common Issues
@@ -166,12 +166,12 @@ If that button is missing, your Windows admin has blocked unsigned apps. Try ins
 <details>
 <summary><strong>App crashes on startup</strong></summary>
 
-1. Make sure you're running Windows 10 or newer
+1. Make sure you are running Windows 10 or newer
 2. Try running as Administrator (right-click shortcut → Run as administrator)
 3. Uninstall and reinstall — make sure you picked the right architecture (x64 vs arm64)
 4. If still broken, post logs in Discord `#support`. Log location: `%APPDATA%\DegenDevOps\logs\`
 
-> Heads up: the log folder is named `DegenDevOps\logs` for now (legacy path kept so existing installs aren't broken). HIVE is the same app — the folder will be renamed in a future release.
+> Note: the log folder is named `DegenDevOps\logs` (legacy path kept so existing installs are not broken). HIVE is the same app — the folder will be renamed in a future release.
 
 </details>
 
@@ -179,8 +179,8 @@ If that button is missing, your Windows admin has blocked unsigned apps. Try ins
 <summary><strong>"Sign in with Discord" fails or redirects to a broken page</strong></summary>
 
 1. Make sure your default browser is a modern one (Chrome, Edge, Firefox)
-2. After Discord authorization, your browser should try to redirect to `degendevops://...` (legacy custom protocol — kept for backward compat). If your browser asks "what app should open this link?", pick **HIVE**
-3. If you're not on the admin's approved user list, login will fail silently — contact the admin in Discord
+2. After Discord authorization, your browser should redirect to `degendevops://...` (legacy custom protocol — kept for backward compat). If your browser asks "what app should open this link?", pick **HIVE**
+3. If you are not on the admin's approved user list, login will fail silently — contact the admin in Discord
 
 </details>
 
@@ -188,7 +188,7 @@ If that button is missing, your Windows admin has blocked unsigned apps. Try ins
 <summary><strong>MT5 Dashboard shows "Disconnected"</strong></summary>
 
 1. Make sure MT5 is running and logged into your broker
-2. In MT5: **Tools → Options → Expert Advisors → ✅ Allow algorithmic trading**
+2. In MT5: **Tools → Options → Expert Advisors → check Allow algorithmic trading**
 3. In HIVE: **MCP Servers** page — confirm `mt5-mcp-server` shows green "Running" badge
 4. If not running, click **Start** on that server card
 
@@ -205,32 +205,32 @@ If that button is missing, your Windows admin has blocked unsigned apps. Try ins
 
 ---
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
-- **Your API keys** are stored encrypted in your Windows user account (via OS keychain). Never sent anywhere except the AI provider you've chosen.
+- **Your API keys** are stored encrypted in your Windows user account (via OS keychain). Never sent anywhere except the AI provider you have chosen.
 - **Your chat history** is stored locally on your PC at `%USERPROFILE%\.degendevops\sessions\` (legacy folder name)
 - **Direct messages** are stored in our Supabase database with Row-Level Security — only you and the recipient can read them
-- **Discord login** grants us: your Discord username, avatar, and email — nothing else
-- **No telemetry**. We don't track what you do in the app.
+- **Discord login** grants us your Discord username, avatar, and email — nothing else
+- **No telemetry.** We do not track what you do in the app.
 
 ---
 
-## 📜 License
+## License
 
 Proprietary. Distributed to approved users only. Do not redistribute the installer or share it outside the approved community.
 
 ---
 
-## 🙏 Credits
+## Credits
 
-Built by the HIVE team at Quant Labs. Powered by:
+Built by the HIVE team at Quantum Labs. Powered by:
 - [Electron](https://www.electronjs.org/)
-- [Anthropic Claude](https://www.anthropic.com/) + [Model Context Protocol](https://modelcontextprotocol.io/)
-- [Supabase](https://supabase.com/) (auth + DMs)
+- [Anthropic Claude](https://www.anthropic.com/) and [Model Context Protocol](https://modelcontextprotocol.io/)
+- [Supabase](https://supabase.com/) (auth and DMs)
 - [MetaQuotes MetaTrader 5](https://www.metaquotes.net/)
 
 ---
 
 <p align="center">
-  <strong>📥 <a href="https://github.com/QuantumWick/HIVE-releases/releases/latest">Download Latest Release</a></strong>
+  <strong><a href="https://github.com/QuantumWick/HIVE-releases/releases/latest">Download Latest Release</a></strong>
 </p>
